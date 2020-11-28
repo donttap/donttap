@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta Stencil');
+
+#slider {
+  -webkit-appearance: none;
+   -moz-appearance: none;
+  width: 200px;
+  height: 10px;
+  border-radius: 5px;   
+  background: #fff;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+   -moz-transition: .2s;
+   -o-transition: .2s;
+  transition: opacity .2s;
+  margin-top:5px;  
+  cursor: pointer !important;  
+
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; 
+  background: #f460ff;
+  cursor: pointer !important;
+}
+
+#slider::-moz-range-thumb {
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f460ff;
+  cursor: pointer !important;
+}
+
+body { margin: 0;
+ cursor: pointer !important;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none;
+font-family: 'Allerta Stencil';
+}
+    
+
+#PressKey {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Allerta Stencil';
+    color: #9e21a1 !important;
+}
+
+#switch {
+    background-color: #4CAF50;
+    Width: 200px;
+    outline:none;
+    font-family: 'Allerta Stencil';
+    font-size: 15px;
+    padding: 5px;
+    margin-top:5px;
+    margin-left:2px;
+    border: 2px solid #fff;
+    background: linear-gradient(to left,
+      #000 0% 25%, #fff 25% 75%, #000 75% 100%); 
+transition: all 1s;
+
+}
+
+#switch:hover {
+    color: white;
+    Width: 200px;
+    outline:none;
+    border: 2px solid #999;
+    background: linear-gradient(to left,
+      #fff 0% 25%, #000 25% 75%, #fff 75% 100%); 
+   transition: all 1s;
+    
+}
+
+#switch:active {
+    color: #000;
+    Width: 200px;
+    outline:none;
+    border: 2px solid #8c8c8c;
+    background: linear-gradient(to left,
+      #fff 0% 25%, #fff 25% 75%, #fff 75% 100%); 
+    transition: all 1s;
+}
+
+#zom{font-family: 'Allerta Stencil';
+    font-size: 15px;
+}
+
+#best{font-family: 'Allerta Stencil';}
+
+#records {
+    background-color: #4CAF50;
+    Width: 200px;
+    outline:none;
+    font-family: 'Allerta Stencil';
+    font-size: 15px;
+    padding: 5px;
+    margin-top:45px;
+    margin-left:2px;
+    border: 2px solid #fff;
+    background: linear-gradient(to left,
+      #000 0% 25%, #fff 25% 75%, #000 75% 100%); 
+transition: all 1s;
+
+}
+
+#records:hover {
+    color: white;
+    Width: 200px;
+    outline:none;
+    border: 2px solid #999;
+    background: linear-gradient(to left,
+      #fff 0% 25%, #000 25% 75%, #fff 75% 100%); 
+   transition: all 1s;
+    
+}
+
+#records:active {
+    color: #000;
+    Width: 200px;
+    outline:none;
+    border: 2px solid #8c8c8c;
+    background: linear-gradient(to left,
+      #fff 0% 25%, #fff 25% 75%, #fff 75% 100%); 
+    transition: all 1s;
+}
+
+#patr{
+   color: #171daf; 
+    text-decoration: none;
+    font-size:15px;
+}
+
+#patrLink:hover{
+    color: #0092ff;
+}
+
+#patr:hover{
+    color: #0092ff;
+}
